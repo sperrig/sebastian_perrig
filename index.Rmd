@@ -1,5 +1,5 @@
 ---
-title: "Welcom to my Website"
+title: "Welcome to my Website"
 description: |
   
   Currently this page is still under construction.
@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![This is me.](images/sebastian_photoshop.jpeg){#id .class width=50% height=70%}
+![](images/sebastian_photoshop.jpeg){#id .class width=50% height=50%}
 
 My name is Sebastian A. C. Perrig. I am a Ph.D. student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
   
