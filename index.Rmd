@@ -3,12 +3,6 @@ title: "Welcom to my Website"
 description: |
   
   Currently this page is still under construction.
-  
-  My name is Sebastian A. C. Perrig. I am a Ph.D. student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
-  
-  My interests lie in the area of measurement methodology and scale construction for the recording of various constructs that make up the experience of users. Thus, I am interested in how to measure user experience (UX), which aspects are considered relevant for UX, and how to make UX as a whole more tangible. The review and comparison of existing questionnaires as well as the development of new relevant scales are the focus of my research.
-  
-  One key construct of UX that especially interestst me is interface aesthetics, and how a product's aesthetics influence both the experience of users and how they interact with a product.
 site: distill::distill_website
 ---
 
@@ -23,3 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+My name is Sebastian A. C. Perrig. I am a Ph.D. student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
+  
+My interests lie in the area of measurement methodology and scale construction for the recording of various constructs that make up the experience of users. Thus, I am interested in how to measure user experience (UX), which aspects are considered relevant for UX, and how to make UX as a whole more tangible. The review and comparison of existing questionnaires as well as the development of new relevant scales are the focus of my research.
+  
+One key construct of UX that especially interestst me is interface aesthetics, and how a product's aesthetics influence both the experience of users and how they interact with a product.

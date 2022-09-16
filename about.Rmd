@@ -1,12 +1,14 @@
 ---
 title: "About me"
 description: |
-  I grew up in Basel, Switzerland.
-  
-  In 2015, I startet my studies of Psychology at the University of Basel, receiving my Master of Science in Psychology in 2019.
+
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+I grew up in Basel, Switzerland.
+  
+In 2015, I startet my studies of Psychology at the University of Basel, receiving my Master of Science in Psychology in 2019.
