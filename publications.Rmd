@@ -13,11 +13,11 @@ description: |
     
     2022
     
-    Scharowski, N., Perrig, S. A. C., von Felten, N., & Brühlmann, F. (2022). Trust and Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams.
+    Scharowski, N., Perrig, S. A. C., von Felten, N., & Brühlmann, F. (2022). Trust and Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams. https://arxiv.org/abs/2203.12318
     
     2021
     
-    Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play, 158–162.
+    Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play, 158–162. https://doi.org/10.1145/3450337.3483499
     
     JOURNAL ARTICLES
     
@@ -47,9 +47,9 @@ description: |
     
     Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. 
     
-    PRESENTATIONS
+    TALKS
     
-    Talk at the UX Basel Meetup 2021 with the title "Measuring UX - Current State and Future Opportunities".
+    Talk at the UX Basel Meetup 2021 with the title "Measuring UX - Current State and Future Opportunities". https://www.meetup.com/ux-basel-meetups/events/281969432/
     
 ---
 
