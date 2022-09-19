@@ -1,5 +1,5 @@
 ---
-title: "My publications"
+title: "RESEARCH ACTIVITY"
 description: |
   Here is a selection of my work.
 
