@@ -2,7 +2,6 @@
 title: "ABOUT ME"
 description: |
   
-  Currently this page is still under construction.
 site: distill::distill_website
 ---
 
