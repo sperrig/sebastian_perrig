@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](images/sebastian_photoshop.jpeg){#id .class width=50% height=50%}
+![](images/sebastian_photoshop.jpeg){#id .class width=50% height=80%}
 
 My name is Sebastian A. C. Perrig. I am a PhD student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
   
