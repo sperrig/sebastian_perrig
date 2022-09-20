@@ -5,6 +5,10 @@ description: |
 
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
 # AWARDS
 
 CHI PLAY 2021 Honorable Mentions Award (top 5 %)
@@ -15,31 +19,31 @@ CHI PLAY 2021 Honorable Mentions Award (top 5 %)
     
 ### 2022
     
-Scharowski, N., Perrig, S. A. C., von Felten, N., & Brühlmann, F. (2022). Trust and     Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams. https://arxiv.org/abs/2203.12318
+Scharowski, N., Perrig, S. A. C., von Felten, N., & Brühlmann, F. (2022). Trust and Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. *CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams*. https://arxiv.org/abs/2203.12318
     
 ### 2021
     
-Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play, 158–162. https://doi.org/10.1145/3450337.3483499
+Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. *Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play*, 158–162. https://doi.org/10.1145/3450337.3483499
     
 ## Journal Articles
     
 ### 2021
     
-Aeschbach, L. F., Perrig, S. A. C., Weder, L., Opwis, K., & Brühlmann, F. (2021). Transparency in Measurement Reporting: A Systematic Literature Review of CHI PLAY. Proc. ACM Hum.-Comput. Interact., 5(CHI PLAY). https://doi.org/10.1145/3474660 Honorable Mentions.
+Aeschbach, L. F., Perrig, S. A. C., Weder, L., Opwis, K., & Brühlmann, F. (2021). Transparency in Measurement Reporting: A Systematic Literature Review of CHI PLAY. *Proc. ACM Hum.-Comput. Interact., 5(CHI PLAY)*. **Honorable Mentions**. https://doi.org/10.1145/3474660
     
-Hochstrasser, S. R., Metzger, K., Vincent, A. M., Becker, C., Keller, A. K. J., Beck, K., Perrig, S., Tisljar, K., Sutter, R., Schuetz, P., Bernasconi, L., Neyer, P., Marsch, S., & Hunziker, S. (2021). Trimethylamine-N-oxide (TMAO) predicts short- and long-term mortality and poor neurological outcome in out-of-hospital cardiac arrest patients. Clinical Chemistry and Laboratory Medicine (CCLM), 59(2), 393–402. https://doi.org/10.1515/cclm-2020-0159  
+Hochstrasser, S. R., Metzger, K., Vincent, A. M., Becker, C., Keller, A. K. J., Beck, K., Perrig, S., Tisljar, K., Sutter, R., Schuetz, P., Bernasconi, L., Neyer, P., Marsch, S., & Hunziker, S. (2021). Trimethylamine-N-oxide (TMAO) predicts short- and long-term mortality and poor neurological outcome in out-of-hospital cardiac arrest patients. *Clinical Chemistry and Laboratory Medicine (CCLM), 59*(2), 393–402. https://doi.org/10.1515/cclm-2020-0159  
     
 ### 2020
     
-Beck, K., Vincent, A., Thommen, E., Widmer, M., Becker, C., Perrig, S., Keller, A., & Hunziker, S. (2020). Post Intensive Care Syndrome in out-of-hospital cardiac arrest patients: A prospective observational study. Journal of Psychosomatic Research, 133, 110064.
+Beck, K., Vincent, A., Thommen, E., Widmer, M., Becker, C., Perrig, S., Keller, A., & Hunziker, S. (2020). Post Intensive Care Syndrome in out-of-hospital cardiac arrest patients: A prospective observational study. *Journal of Psychosomatic Research, 133*, 110064. https://doi.org/10.1016/j.jpsychores.2020.110064
     
-Becker, C., Künzli, N., Perrig, S., Beck, K., Vincent, A., Widmer, M., Thommen, E., Schaefert, R., Bassetti, S., & Hunziker, S. (2020). Code status discussions in medical inpatients: results of a survey of patients and physicians. Swiss Medical Weekly, 150(1314).
+Becker, C., Künzli, N., Perrig, S., Beck, K., Vincent, A., Widmer, M., Thommen, E., Schaefert, R., Bassetti, S., & Hunziker, S. (2020). Code status discussions in medical inpatients: results of a survey of patients and physicians. *Swiss Medical Weekly, 150*(1314). https://doi.org/10.4414/smw.2020.20194
     
-Boerlin, A., Luescher, T., Becker, C., Perrig, S., Thommen, E., Widmer, M., Beck, K., Vincent, A., Tisljar, K., Bernasconi, L., & others. (2020). Low Plasma Sphingomyelin Levels Show a Weak Association with Poor Neurological Outcome in Cardiac Arrest Patients: Results from the Prospective, Observational COMMUNICATE Trial. Journal of Clinical Medicine, 9(4), 897. 
+Boerlin, A., Luescher, T., Becker, C., Perrig, S., Thommen, E., Widmer, M., Beck, K., Vincent, A., Tisljar, K., Bernasconi, L., & others. (2020). Low Plasma Sphingomyelin Levels Show a Weak Association with Poor Neurological Outcome in Cardiac Arrest Patients: Results from the Prospective, Observational COMMUNICATE Trial. *Journal of Clinical Medicine, 9*(4), 897. https://doi.org/10.3390/jcm9040897
     
-Herzog, N., Laager, R., Thommen, E., Widmer, M., Vincent, A. M., Keller, A., Becker, C., Beck, K., Perrig, S., Bernasconi, L., & others. (2020). Association of Taurine with In-Hospital Mortality in Patients after Out-of-Hospital Cardiac Arrest: Results from the Prospective, Observational COMMUNICATE Study. Journal of Clinical Medicine, 9(5), 1405. 
+Herzog, N., Laager, R., Thommen, E., Widmer, M., Vincent, A. M., Keller, A., Becker, C., Beck, K., Perrig, S., Bernasconi, L., & others. (2020). Association of Taurine with In-Hospital Mortality in Patients after Out-of-Hospital Cardiac Arrest: Results from the Prospective, Observational COMMUNICATE Study. *Journal of Clinical Medicine, 9*(5), 1405. https://doi.org/10.3390/jcm9051405
     
-Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Keller, A., Bernasconi, L., Neyer, P., Marsch, S., & others. (2020). Association of acyl carnitines and mortality in out-of-hospital-cardiac-arrest patients: Results of a prospective observational study. Journal of Critical Care. 
+Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Keller, A., Bernasconi, L., Neyer, P., Marsch, S., & others. (2020). Association of acyl carnitines and mortality in out-of-hospital-cardiac-arrest patients: Results of a prospective observational study. *Journal of Critical Care, 58*. https://doi.org/10.1016/j.jcrc.2020.03.009
     
 ## Masterthesis
     
@@ -47,12 +51,8 @@ Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and q
     
 ## Bachelorthesis
     
-Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. 
+Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. https://doi.org/10.31237/osf.io/bkx5y
     
 # TALKS
     
-Talk at the UX Basel Meetup 2021 with the title "Measuring UX - Current State and Future Opportunities". https://www.meetup.com/ux-basel-meetups/events/281969432/
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Perrig, S. (2021, December 1). Measuring UX - Current State and Future Opportunities. *UX Schweiz - Basel Meetups*. https://www.meetup.com/ux-basel-meetups/events/281969432/

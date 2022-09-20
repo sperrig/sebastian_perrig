@@ -88,26 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Sebastian A. C. Perrig: CV</title>
+  <title>Sebastian A. C. Perrig: CURRICULUM VITAE</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Sebastian A. C. Perrig: CV"/>
+  <meta property="og:title" content="Sebastian A. C. Perrig: CURRICULUM VITAE"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Sebastian A. C. Perrig"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Sebastian A. C. Perrig: CV"/>
+  <meta property="twitter:title" content="Sebastian A. C. Perrig: CURRICULUM VITAE"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["CV"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["CURRICULUM VITAE"]},{"type":"NULL"}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2064,7 +2071,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2084,7 +2091,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"CV","authors":[]}
+{"title":"CURRICULUM VITAE","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2107,7 +2114,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>CV</h1>
+<h1>CURRICULUM VITAE</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2115,8 +2122,76 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>I grew up in Basel, Switzerland.</p>
-<p>In 2015, I startet my studies of Psychology at the University of Basel, receiving my Master of Science in Psychology in 2020.</p>
+<h1 id="work-experience">WORK EXPERIENCE</h1>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Timeframe</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>since 2020</td>
+<td>PhD Student, HCI research group, University of Basel</td>
+</tr>
+<tr class="even">
+<td>2019 - 2020</td>
+<td>Student research assistant, HCI research group, University of Basel</td>
+</tr>
+<tr class="odd">
+<td>2018 - 2020</td>
+<td>Student research assistant, medical communication, University Hospital Basel</td>
+</tr>
+<tr class="even">
+<td>Nov - Dec 2018</td>
+<td>Project intern, HCI research group, University of Basel</td>
+</tr>
+<tr class="odd">
+<td>Jun - Sep 2017</td>
+<td>Intern, department for psychosomatics, University Hospital Basel</td>
+</tr>
+<tr class="even">
+<td>Mar - Apr 2017</td>
+<td>Research intern, HCI research group, University of Basel</td>
+</tr>
+<tr class="odd">
+<td>2014 - 2015</td>
+<td>Intern, medical outpatient clinic and medical ward 5.1, University Hospital Basel</td>
+</tr>
+</tbody>
+</table>
+<h1 id="education">EDUCATION</h1>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Timeframe</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2018 - 2020</td>
+<td>Master of Science in Psychology, University of Basel</td>
+</tr>
+<tr class="even">
+<td>2015 - 2018</td>
+<td>Bachelor of Science in Psychology, University of Basel</td>
+</tr>
+<tr class="odd">
+<td>2009 - 2014</td>
+<td>Bilingual Swiss Matura (German &amp; English), International Baccalaureate</td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

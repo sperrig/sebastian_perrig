@@ -788,6 +788,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1860,15 +1861,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2067,7 +2074,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2123,25 +2130,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1 id="publications">PUBLICATIONS</h1>
 <h2 id="conference-proceedings">Conference Proceedings</h2>
 <h3 id="section">2022</h3>
-<p>Scharowski, N., Perrig, S. A. C., von Felten, N., &amp; Brühlmann, F. (2022). Trust and Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams. <a href="https://arxiv.org/abs/2203.12318" class="uri">https://arxiv.org/abs/2203.12318</a></p>
+<p>Scharowski, N., Perrig, S. A. C., von Felten, N., &amp; Brühlmann, F. (2022). Trust and Reliance in XAI–Distinguishing Between Attitudinal and Behavioral Measures. <em>CHI 2022 TRAIT Workshop on Trust and Reliance in AI-Human Teams</em>. <a href="https://arxiv.org/abs/2203.12318" class="uri">https://arxiv.org/abs/2203.12318</a></p>
 <h3 id="section-1">2021</h3>
-<p>Kayser, D., Perrig, S. A. C., &amp; Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play, 158–162. <a href="https://doi.org/10.1145/3450337.3483499" class="uri">https://doi.org/10.1145/3450337.3483499</a></p>
+<p>Kayser, D., Perrig, S. A. C., &amp; Brühlmann, F. (2021). Measuring Players’ Experience of Need Satisfaction in Digital Games: An Analysis of the Factor Structure of the UPEQ. <em>Extended Abstracts of the 2021 Annual Symposium on Computer-Human Interaction in Play</em>, 158–162. <a href="https://doi.org/10.1145/3450337.3483499" class="uri">https://doi.org/10.1145/3450337.3483499</a></p>
 <h2 id="journal-articles">Journal Articles</h2>
 <h3 id="section-2">2021</h3>
-<p>Aeschbach, L. F., Perrig, S. A. C., Weder, L., Opwis, K., &amp; Brühlmann, F. (2021). Transparency in Measurement Reporting: A Systematic Literature Review of CHI PLAY. Proc. ACM Hum.-Comput. Interact., 5(CHI PLAY). <a href="https://doi.org/10.1145/3474660" class="uri">https://doi.org/10.1145/3474660</a> Honorable Mentions.</p>
-<p>Hochstrasser, S. R., Metzger, K., Vincent, A. M., Becker, C., Keller, A. K. J., Beck, K., Perrig, S., Tisljar, K., Sutter, R., Schuetz, P., Bernasconi, L., Neyer, P., Marsch, S., &amp; Hunziker, S. (2021). Trimethylamine-N-oxide (TMAO) predicts short- and long-term mortality and poor neurological outcome in out-of-hospital cardiac arrest patients. Clinical Chemistry and Laboratory Medicine (CCLM), 59(2), 393–402. <a href="https://doi.org/10.1515/cclm-2020-0159" class="uri">https://doi.org/10.1515/cclm-2020-0159</a></p>
+<p>Aeschbach, L. F., Perrig, S. A. C., Weder, L., Opwis, K., &amp; Brühlmann, F. (2021). Transparency in Measurement Reporting: A Systematic Literature Review of CHI PLAY. <em>Proc. ACM Hum.-Comput. Interact., 5(CHI PLAY)</em>. <strong>Honorable Mentions</strong>. <a href="https://doi.org/10.1145/3474660" class="uri">https://doi.org/10.1145/3474660</a></p>
+<p>Hochstrasser, S. R., Metzger, K., Vincent, A. M., Becker, C., Keller, A. K. J., Beck, K., Perrig, S., Tisljar, K., Sutter, R., Schuetz, P., Bernasconi, L., Neyer, P., Marsch, S., &amp; Hunziker, S. (2021). Trimethylamine-N-oxide (TMAO) predicts short- and long-term mortality and poor neurological outcome in out-of-hospital cardiac arrest patients. <em>Clinical Chemistry and Laboratory Medicine (CCLM), 59</em>(2), 393–402. <a href="https://doi.org/10.1515/cclm-2020-0159" class="uri">https://doi.org/10.1515/cclm-2020-0159</a></p>
 <h3 id="section-3">2020</h3>
-<p>Beck, K., Vincent, A., Thommen, E., Widmer, M., Becker, C., Perrig, S., Keller, A., &amp; Hunziker, S. (2020). Post Intensive Care Syndrome in out-of-hospital cardiac arrest patients: A prospective observational study. Journal of Psychosomatic Research, 133, 110064.</p>
-<p>Becker, C., Künzli, N., Perrig, S., Beck, K., Vincent, A., Widmer, M., Thommen, E., Schaefert, R., Bassetti, S., &amp; Hunziker, S. (2020). Code status discussions in medical inpatients: results of a survey of patients and physicians. Swiss Medical Weekly, 150(1314).</p>
-<p>Boerlin, A., Luescher, T., Becker, C., Perrig, S., Thommen, E., Widmer, M., Beck, K., Vincent, A., Tisljar, K., Bernasconi, L., &amp; others. (2020). Low Plasma Sphingomyelin Levels Show a Weak Association with Poor Neurological Outcome in Cardiac Arrest Patients: Results from the Prospective, Observational COMMUNICATE Trial. Journal of Clinical Medicine, 9(4), 897.</p>
-<p>Herzog, N., Laager, R., Thommen, E., Widmer, M., Vincent, A. M., Keller, A., Becker, C., Beck, K., Perrig, S., Bernasconi, L., &amp; others. (2020). Association of Taurine with In-Hospital Mortality in Patients after Out-of-Hospital Cardiac Arrest: Results from the Prospective, Observational COMMUNICATE Study. Journal of Clinical Medicine, 9(5), 1405.</p>
-<p>Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Keller, A., Bernasconi, L., Neyer, P., Marsch, S., &amp; others. (2020). Association of acyl carnitines and mortality in out-of-hospital-cardiac-arrest patients: Results of a prospective observational study. Journal of Critical Care.</p>
+<p>Beck, K., Vincent, A., Thommen, E., Widmer, M., Becker, C., Perrig, S., Keller, A., &amp; Hunziker, S. (2020). Post Intensive Care Syndrome in out-of-hospital cardiac arrest patients: A prospective observational study. <em>Journal of Psychosomatic Research, 133</em>, 110064. <a href="https://doi.org/10.1016/j.jpsychores.2020.110064" class="uri">https://doi.org/10.1016/j.jpsychores.2020.110064</a></p>
+<p>Becker, C., Künzli, N., Perrig, S., Beck, K., Vincent, A., Widmer, M., Thommen, E., Schaefert, R., Bassetti, S., &amp; Hunziker, S. (2020). Code status discussions in medical inpatients: results of a survey of patients and physicians. <em>Swiss Medical Weekly, 150</em>(1314). <a href="https://doi.org/10.4414/smw.2020.20194" class="uri">https://doi.org/10.4414/smw.2020.20194</a></p>
+<p>Boerlin, A., Luescher, T., Becker, C., Perrig, S., Thommen, E., Widmer, M., Beck, K., Vincent, A., Tisljar, K., Bernasconi, L., &amp; others. (2020). Low Plasma Sphingomyelin Levels Show a Weak Association with Poor Neurological Outcome in Cardiac Arrest Patients: Results from the Prospective, Observational COMMUNICATE Trial. <em>Journal of Clinical Medicine, 9</em>(4), 897. <a href="https://doi.org/10.3390/jcm9040897" class="uri">https://doi.org/10.3390/jcm9040897</a></p>
+<p>Herzog, N., Laager, R., Thommen, E., Widmer, M., Vincent, A. M., Keller, A., Becker, C., Beck, K., Perrig, S., Bernasconi, L., &amp; others. (2020). Association of Taurine with In-Hospital Mortality in Patients after Out-of-Hospital Cardiac Arrest: Results from the Prospective, Observational COMMUNICATE Study. <em>Journal of Clinical Medicine, 9</em>(5), 1405. <a href="https://doi.org/10.3390/jcm9051405" class="uri">https://doi.org/10.3390/jcm9051405</a></p>
+<p>Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Keller, A., Bernasconi, L., Neyer, P., Marsch, S., &amp; others. (2020). Association of acyl carnitines and mortality in out-of-hospital-cardiac-arrest patients: Results of a prospective observational study. <em>Journal of Critical Care, 58</em>. <a href="https://doi.org/10.1016/j.jcrc.2020.03.009" class="uri">https://doi.org/10.1016/j.jcrc.2020.03.009</a></p>
 <h2 id="masterthesis">Masterthesis</h2>
 <p>Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and questionnaire validation in a mobile device setting.</p>
 <h2 id="bachelorthesis">Bachelorthesis</h2>
-<p>Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires.</p>
+<p>Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. <a href="https://doi.org/10.31237/osf.io/bkx5y" class="uri">https://doi.org/10.31237/osf.io/bkx5y</a></p>
 <h1 id="talks">TALKS</h1>
-<p>Talk at the UX Basel Meetup 2021 with the title “Measuring UX - Current State and Future Opportunities”. <a href="https://www.meetup.com/ux-basel-meetups/events/281969432/" class="uri">https://www.meetup.com/ux-basel-meetups/events/281969432/</a></p>
+<p>Perrig, S. (2021, December 1). Measuring UX - Current State and Future Opportunities. <em>UX Schweiz - Basel Meetups</em>. <a href="https://www.meetup.com/ux-basel-meetups/events/281969432/" class="uri">https://www.meetup.com/ux-basel-meetups/events/281969432/</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

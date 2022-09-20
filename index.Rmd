@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](images/sebastian_photoshop.jpeg){#id .class width=50% height=80%}
+![](images/sebastian_photoshop.jpeg){#id .class width=50% height=50%}
 
-My name is Sebastian A. C. Perrig. I am a Ph.D. student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
+My name is Sebastian A. C. Perrig. I am a PhD student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
   
 My interests lie in the area of measurement methodology and scale construction for the recording of various constructs that make up the experience of users. Thus, I am interested in how to measure user experience (UX), which aspects are considered relevant for UX, and how to make UX as a whole more tangible. The review and comparison of existing questionnaires as well as the development of new relevant scales are the focus of my research.
   
