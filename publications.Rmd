@@ -45,11 +45,11 @@ Herzog, N., Laager, R., Thommen, E., Widmer, M., Vincent, A. M., Keller, A., Bec
     
 Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Keller, A., Bernasconi, L., Neyer, P., Marsch, S., & others. (2020). Association of acyl carnitines and mortality in out-of-hospital-cardiac-arrest patients: Results of a prospective observational study. *Journal of Critical Care, 58*. https://doi.org/10.1016/j.jcrc.2020.03.009
     
-## Masterthesis
+## Master's Thesis
     
 Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and questionnaire validation in a mobile device setting. 
     
-## Bachelorthesis
+## Bachelor's Thesis
     
 Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. https://doi.org/10.31237/osf.io/bkx5y
     

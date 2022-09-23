@@ -1,5 +1,6 @@
 name: "sebastian_perrig"
 title: "Sebastian A. C. Perrig"
+theme: sp_theme.css
 description: |
   My Website
 output_dir: "docs"
@@ -11,4 +12,6 @@ navbar:
       href: about.html
     - text: "Publications"
       href: publications.html
+    - text: "Contact"
+      href: contact.html
 output: distill::distill_article

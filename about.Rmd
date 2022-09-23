@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 | Timeframe             | Event                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| since 2020            | PhD Student, HCI research group, University of Basel                                            |
+| since 2020            | PhD Candidate, HCI research group, University of Basel                                            |
 | 2019 - 2020           | Student research assistant, HCI research group, University of Basel                             |
 | 2018 - 2020           | Student research assistant, medical communication, University Hospital Basel                    |
 | Nov - Dec 2018        | Project intern, HCI research group, University of Basel                                         |

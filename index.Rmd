@@ -16,10 +16,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](images/sebastian_photoshop.jpeg){#id .class width=50% height=80%}
 
-My name is Sebastian A. C. Perrig. I am a PhD student at the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel.
-  
-My interests lie in the area of measurement methodology and scale construction for the recording of various constructs that make up the experience of users. Thus, I am interested in how to measure user experience (UX), which aspects are considered relevant for UX, and how to make UX as a whole more tangible. The review and comparison of existing questionnaires as well as the development of new relevant scales are the focus of my research.
-  
-One key construct of UX that especially interestst me is interface aesthetics, and how a product's aesthetics influence both the experience of users and how they interact with a product.
+<center>
+
+```{r, out.width = '250px', include=T}
+knitr::include_graphics('images/sebastian_photoshop.jpeg')
+
+#![](images/sebastian_photoshop.jpeg){#id .class width=50% height=80%} ![](images/sebastian_photoshop.jpeg){width=40% height=40%}
+
+```
+
+</center>
+
+<p style="text-align: justify"> My name is Sebastian A. C. Perrig. I am a Ph.D. candidate in the Human-Computer Interaction Research Group of the Center for General Psychology and Methodology, Faculty of Psychology, University of Basel, Switzerland. My interests lie in measurement methodology and scale construction to capture various constructs that constitute users' experiences. Thus, I am interested in measuring user experience (UX), which aspects are considered relevant for UX, and how UX can be made more tangible. Reviewing and comparing existing UX questionnaires and developing new relevant scales are the focus of my research. One particular construct of UX that interests me especially is aesthetics. My research thus also addresses how a product's aesthetics affect users' experience and interaction with a product, how we can measure aesthetics, and how it relates to other constructs relevant to UX. </p>
