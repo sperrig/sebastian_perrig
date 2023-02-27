@@ -16,7 +16,7 @@ You can contact me through any of the following channels:
 
 </center>
 
-Or send me a [Mail](mailto:sebastian.perrig@unibas.ch).
+Or send me an [E-Mail](mailto:sebastian.perrig@unibas.ch).
 
 
 ```{r notes, include=FALSE}

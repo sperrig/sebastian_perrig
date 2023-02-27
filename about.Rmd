@@ -31,13 +31,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # TEACHING
 
-| Timeframe                                        | Event                                                                                                                               |
-|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| 2022                                             | Supervision of Bachelor's and Master's Theses                                                                                       |
-| Fall Semester 2022                               | Seminar, ["Research Methods in HCI"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=267355)                                |
-| Spring Semester 2022                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=267444)                         |
-| Spring Semester 2022                             | Seminar, ["Online Research in HCI: Scale Construction and Analysis"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=263778)|
-| 2021                                             | Supervision of Bachelor's and Master's Theses                                                                                       |
-| Fall Semester 2021                               | Seminar, ["Research Methods in HCI"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=259900)                                |
-| Spring Semester 2021                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=255201)                         |
-| Spring Semester 2021                             | Seminar, ["Online Research in HCI: Scale Construction and Analysis"](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258364)|
+| Timeframe                                        | Event                                                                                                                                   |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 2023                                             | Supervision of Bachelor's and Master's Theses                                                                                           |
+| Spring Semester 2023                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=272186)                         |
+| Spring Semester 2023                             | Seminar, ["Online Research in HCI: Scale Construction and Analysis"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=272184)|
+| 2022                                             | Supervision of Bachelor's and Master's Theses                                                                                           |
+| Fall Semester 2022                               | Seminar, ["Research Methods in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=267355)                                |
+| Spring Semester 2022                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=267444)                         |
+| Spring Semester 2022                             | Seminar, ["Online Research in HCI: Scale Construction and Analysis"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=263778)|
+| 2021                                             | Supervision of Bachelor's and Master's Theses                                                                                           |
+| Fall Semester 2021                               | Seminar, ["Research Methods in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=259900)                                |
+| Spring Semester 2021                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=255201)                         |
+| Spring Semester 2021                             | Seminar, ["Online Research in HCI: Scale Construction and Analysis"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=258364)|
