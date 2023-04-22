@@ -19,9 +19,9 @@ CHI PLAY 2021 Honorable Mentions Award (top 5 %)
 
 ### 2023
 
-Perrig, S. A. C., Scharowski, N., & Brühlmann, F (2023). Trust Issues with Trust Scales: Examining the Psychometric Quality of Trust Measures in the Context of AI. *CHI EA '23: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*, 1-7. https://doi.org/10.1145/3544549.3585808
+Perrig, S. A. C., Scharowski, N., & Brühlmann, F. (2023). Trust Issues with Trust Scales: Examining the Psychometric Quality of Trust Measures in the Context of AI. *CHI EA '23: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*, 1-7. https://doi.org/10.1145/3544549.3585808
 
-Scharowski, N., & Perrig, S. A. C. (2023). Distrust in (X)AI--Measurement Artifact or Distinct Construct?. *arXiv preprint* arXiv:2303.16495. https://doi.org/10.48550/arXiv.2203.12318
+Scharowski, N., & Perrig, S. A. C. (2023). Distrust in (X)AI--Measurement Artifact or Distinct Construct?. *CHI 2023 TRAIT Workshop on Trust and Reliance in AI-Human Teams*. https://doi.org/10.48550/arXiv.2203.12318
     
 ### 2022
 
