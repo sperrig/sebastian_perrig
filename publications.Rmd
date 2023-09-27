@@ -16,6 +16,8 @@ knitr::opts_chunk$set(echo = FALSE)
  
 Perrig, S. A. C., Ueffing, D., Opwis, K., & Brühlmann, F. (2023). Smartphone App Aesthetics Influence Users' Experience and Performance. *Front. Psychol. Sec. Human-Media Interaction*, 14, 1-18. https://doi.org/10.3389/fpsyg.2023.1113842
 
+Perrig, S. A. C., von Felten, N., Honda, M., Opwis, K., & Brühlmann, F. (2023). Development and Validation of a Positive-Item Version of the Visual Aesthetics of Websites Inventory: The VisAWI-Pos. *International Journal of Human–Computer Interaction*. https://doi.org/10.1080/10447318.2023.2258634
+
 Scharowski, N., Perrig, S. A. C., Svab, M., Opwis, K., & Brühlmann, F. (2023). Exploring the Effects of Human-Centered AI Explanations on Trust and Reliance. *Front. Comput. Sci. Sec. Theoretical Computer Science*, 5. https://doi.org/10.3389/fcomp.2023.1151150
     
 ### 2021
