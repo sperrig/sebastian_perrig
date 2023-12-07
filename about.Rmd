@@ -33,6 +33,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 | Timeframe                                        | Event                                                                                                                                   |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 2024                                             | Supervision of Bachelor's and Master's Theses                                                                                           |
+| Spring Semester 2024                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=284238)                         |
 | 2023                                             | Supervision of Bachelor's and Master's Theses                                                                                           |
 | Fall Semester 2023                               | Seminar, ["Central Concepts and Constructs of User Experience"](https://vorlesungsverzeichnis.unibas.ch/en/home?id=277698)              |
 | Spring Semester 2023                             | Seminar, ["Current Research Topics in HCI"](https://vorlesungsverzeichnis.unibas.ch/en/investigation?id=272186)                         |
