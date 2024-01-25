@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
     
 ## Journal Articles
  
+### 2024
+
+Brühlmann, F., Memeti, Z., Aeschbach, L. F., Perrig, S. A. C., & Opwis, K. (2024). The effectiveness of warning statements in reducing careless responding in crowdsourced online surveys. *Behavior research methods*, 1-14. https://doi.org/10.3758/s13428-023-02321-z
+ 
 ### 2023
  
 Perrig, S. A. C., Ueffing, D., Opwis, K., & Brühlmann, F. (2023). Smartphone App Aesthetics Influence Users' Experience and Performance. *Front. Psychol. Sec. Human-Media Interaction*, 14, 1-18. https://doi.org/10.3389/fpsyg.2023.1113842
