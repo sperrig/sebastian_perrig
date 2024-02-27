@@ -46,6 +46,10 @@ Widmer, M., Thommen, E. B., Becker, C., Beck, K., Vincent, A. M., Perrig, S., Ke
 
 ## Conference Proceedings
 
+### 2024
+
+Perrig, S. A. C., Scharowski, N., Brühlmann, F., von Felten, N., Opwis, K., & Aeschbach, L. F. (2024). Independent validation of the Player Experience Inventory: Findings from a large set of video game players. *Proceedings of the CHI Conference on Human Factors in Computing Systems*. https://doi.org/10.1145/3613904.3642270 
+
 ### 2023
 
 Perrig, S. A. C., Scharowski, N., & Brühlmann, F. (2023). Trust Issues with Trust Scales: Examining the Psychometric Quality of Trust Measures in the Context of AI. *CHI EA '23: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*, 1-7. https://doi.org/10.1145/3544549.3585808
