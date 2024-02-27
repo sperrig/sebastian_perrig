@@ -15,6 +15,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ### 2024
 
 Brühlmann, F., Memeti, Z., Aeschbach, L. F., Perrig, S. A. C., & Opwis, K. (2024). The effectiveness of warning statements in reducing careless responding in crowdsourced online surveys. *Behavior research methods*, 1-14. https://doi.org/10.3758/s13428-023-02321-z
+
+Perrig, S. A. C., Aeschbach, L. F., Scharowski, N., von Felten, N., Opwis, K., & Brühlmann, F. (2024). Measurement Practices in User Experience (UX) Research: A Systematic Quantitative Literature Review. *Front. Comput. Sci. Sec. Human-Media Interaction*, 6. https://doi.org/10.3389/fcomp.2024.1368860
  
 ### 2023
  
@@ -65,8 +67,6 @@ Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Expe
 
 ## Unpublished Work
 
-Perrig, S. A. C., Aeschbach, L. F., Scharowski, N., von Felten, N., Opwis, K., & Brühlmann, F. (2022). Measurement Practices in UX Research: A Systematic Quantitative Literature Review. *PsyArXiv*. https://doi.org/10.31234/osf.io/3jz67
-    
 Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and questionnaire validation in a mobile device setting. *Master's Thesis*. 
 
 Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. *Bachelor's Thesis*. https://doi.org/10.31237/osf.io/bkx5y
