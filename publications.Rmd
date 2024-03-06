@@ -71,7 +71,7 @@ Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Expe
 
 ## Unpublished Work
 
-Scharowski, N., Perrig, S. A. C., Aeschbach, L. F., von Felten, N., Opwis, K., Wintersberger, P., & Brühlmann F. (2024). To Trust or Distrust Trust Measures: Validating Questionnaires for Trust in AI *arXiv Preprint*. https://doi.org/10.48550/arXiv.2403.00582
+Scharowski, N., Perrig, S. A. C., Aeschbach, L. F., von Felten, N., Opwis, K., Wintersberger, P., & Brühlmann F. (2024). To Trust or Distrust Trust Measures: Validating Questionnaires for Trust in AI *arXiv Preprint* [2403.00582]. https://doi.org/10.48550/arXiv.2403.00582
 
 Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and questionnaire validation in a mobile device setting. *Master's Thesis*. 
 
