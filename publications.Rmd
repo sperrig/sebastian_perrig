@@ -71,7 +71,7 @@ Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Expe
 
 ## Additional Work
 
-Perrig, S. A. C. (2024). Measuring and Understanding User Experience: Current State and Future Needs. *PhD Thesis*. 
+Perrig, S. A. C.. (2024). Measuring and Understanding User Experience: Current State and Future Needs. *Doctoral Thesis*, University of Basel, Faculty of Psychology. https://doi.org/10.5451/unibas-ep96368
 
 Scharowski, N., Perrig, S. A. C., Aeschbach, L. F., von Felten, N., Opwis, K., Wintersberger, P., & Brühlmann F. (2024). To Trust or Distrust Trust Measures: Validating Questionnaires for Trust in AI. *arXiv Preprint*. https://doi.org/10.48550/arXiv.2403.00582
 
