@@ -71,7 +71,7 @@ Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Expe
 
 ## Additional Work
 
-Perrig, S. A. C., von Felten, N., Vollenwyder, B., & Opwis, K.(2024). Development and Validation of a Positively Worded German Version of the System Usability Scale: The SUS-DE-Pos. *Manuscript in preparation*.
+Perrig, S. A. C., von Felten, N., Vollenwyder, B., & Opwis, K. (2024). Development and Validation of a Positively Worded German Version of the System Usability Scale: The SUS-DE-Pos. *Manuscript under review*. https://doi.org/10.31234/osf.io/9j4wv
 
 Perrig, S. A. C. (2024). Measuring and Understanding User Experience: Current State and Future Needs. *Doctoral Thesis*, University of Basel, Faculty of Psychology. https://doi.org/10.5451/unibas-ep96368
 
