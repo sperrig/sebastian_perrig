@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 Brühlmann, F., Memeti, Z., Aeschbach, L. F., Perrig, S. A. C., & Opwis, K. (2024). The effectiveness of warning statements in reducing careless responding in crowdsourced online surveys. *Behavior research methods*, 1-14. https://doi.org/10.3758/s13428-023-02321-z
 
 Perrig, S. A. C., Aeschbach, L. F., Scharowski, N., von Felten, N., Opwis, K., & Brühlmann, F. (2024). Measurement Practices in User Experience (UX) Research: A Systematic Quantitative Literature Review. *Front. Comput. Sci. Sec. Human-Media Interaction*, 6, 1-17. https://doi.org/10.3389/fcomp.2024.1368860
+
+Perrig, S. A. C., von Felten, N., Vollenwyder, B., & Opwis, K. (in press). Development and Psychometric Validation of a Positively Worded German Version of the System Usability Scale (SUS). *International Journal of Human–Computer Interaction*. https://doi.org/10.1080/10447318.2024.2434720
  
 ### 2023
  
@@ -71,8 +73,6 @@ Kayser, D., Perrig, S. A. C., & Brühlmann, F. (2021). Measuring Players’ Expe
 
 ## Additional Work
 
-Perrig, S. A. C., von Felten, N., Vollenwyder, B., & Opwis, K. (2024). Development and Validation of a Positively Worded German Version of the System Usability Scale: The SUS-DE-Pos. *Manuscript under review*. https://doi.org/10.31234/osf.io/9j4wv
-
 Perrig, S. A. C. (2024). Measuring and Understanding User Experience: Current State and Future Needs. *Doctoral Thesis*, University of Basel, Faculty of Psychology. https://doi.org/10.5451/unibas-ep96368
 
 Scharowski, N., Perrig, S. A. C., Aeschbach, L. F., von Felten, N., Opwis, K., Wintersberger, P., & Brühlmann F. (2024). To Trust or Distrust Trust Measures: Validating Questionnaires for Trust in AI. *arXiv Preprint*. https://doi.org/10.48550/arXiv.2403.00582
@@ -80,7 +80,6 @@ Scharowski, N., Perrig, S. A. C., Aeschbach, L. F., von Felten, N., Opwis, K., W
 Perrig, S. (2020). Validating the AttrakDiff: Structured literature review and questionnaire validation in a mobile device setting. *Master's Thesis*. 
 
 Perrig, S. (2018). Measuring user experience: Overview and comparison oft two commonly used questionnaires. *Bachelor's Thesis*. https://doi.org/10.31237/osf.io/bkx5y
-
 
 # AWARDS
 
