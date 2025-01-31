@@ -12,12 +12,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 | Timeframe             | Event                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| 2020 - 2024           | Assistant and PhD Candidate, HCI research group, University of Basel                            |
-| 2019 - 2020           | Student research assistant, HCI research group, University of Basel                             |
-| 2018 - 2020           | Student research assistant, medical communication, University Hospital Basel                    |
-| Nov - Dec 2018        | Project intern, HCI research group, University of Basel                                         |
-| Jun - Sep 2017        | Intern, department for psychosomatics, University Hospital Basel                                |
-| Mar - Apr 2017        | Research intern, HCI research group, University of Basel                                        |
+| since 2024            | Research Support and Research Data Management, University of Applied Sciences and Arts Northwestern Switzerland (FHNW) |
+| 2020 - 2024           | Assistant and PhD Candidate, HCI Research Group, University of Basel                            |
+| 2019 - 2020           | Student Research Assistant, HCI Research Group, University of Basel                             |
+| 2018 - 2020           | Student Research Assistant for Data Analysis, Department on Medical Communication, University Hospital Basel      |
+| Nov - Dec 2018        | UX Research Project Intern, HCI Research Group, University of Basel                             |
+| Jun - Sep 2017        | Intern, Department for Psychosomatics, University Hospital Basel                                |
+| Mar - Apr 2017        | UX Research Intern, HCI Research Group, University of Basel                                     |
 | 2014 - 2015           | Intern, medical outpatient clinic and medical ward 5.1, University Hospital Basel               |
 
 
@@ -25,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 | Timeframe             | Event                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| 2020 - 2024           | PhD in Psychology, HCI research group, University of Basel                                      |
+| 2020 - 2024           | PhD in Psychology, HCI Research Group, University of Basel                                      |
 | 2018 - 2020           | Master of Science in Psychology, University of Basel                                            |
 | 2015 - 2018           | Bachelor of Science in Psychology, University of Basel                                          |
 | 2009 - 2014           | Bilingual Swiss Matura (German & English), International Baccalaureate                          |
