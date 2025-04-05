@@ -86,5 +86,7 @@ Perrig, S. (2018). Measuring user experience: Overview and comparison oft two co
 CHI PLAY 2021 Honorable Mentions Award (top 5 %)
     
 # TALKS
+
+von Felten, N. & Perrig, S. (2025). Be Positive: Neue System Usability Scale, Deutsch, Valide und Positiv. *UX Schweiz - Last Thursday Talks*. https://www.meetup.com/ux-schweiz-last-thursday-talks/events/306573344/
     
 Perrig, S. (2021, December 1). Measuring UX - Current State and Future Opportunities. *UX Schweiz - Basel Meetups*. https://www.meetup.com/ux-basel-meetups/events/281969432/
